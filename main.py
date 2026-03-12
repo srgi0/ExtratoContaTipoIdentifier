@@ -13,7 +13,7 @@ INPUT_ZIP = sys.argv[1]
 
 TEMP_DIR = "tmp_pdf"
 OUTPUT_DIR = "renomeados"
-OUTPUT_ZIP = sys.argv[1] + " - renomeado.zip"
+OUTPUT_ZIP = sys.argv[1].rsplit('.', 1)[0] + " - renomeado.zip"
 
 
 def extrair_zip():
