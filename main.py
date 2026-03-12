@@ -93,11 +93,13 @@ def detectar_tipo(texto):
 
     t = texto.lower()
 
-    if "poupança" in t or "poupanca" in t:
-        return "POUP"
 
     if "conta corrente" in t:
         return "CC"
+
+    if "poupança" in t or "poupanca" in t:
+        return "POUP"
+
 
     if (
         "aplica" in t or
