@@ -1,0 +1,14 @@
+altgraph==0.17.5
+numpy==2.4.3
+opencv-python==4.13.0.92
+packaging==26.0
+pillow==12.1.1
+pyinstaller==6.19.0
+pyinstaller-hooks-contrib==2026.3
+PyMuPDF==1.27.2
+PySide6==6.10.2
+PySide6_Addons==6.10.2
+PySide6_Essentials==6.10.2
+pytesseract==0.3.13
+setuptools==82.0.1
+shiboken6==6.10.2
